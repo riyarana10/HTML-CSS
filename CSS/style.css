@@ -1,0 +1,78 @@
+*{
+    margin: 2%;
+}
+
+h1{
+    color: brown;
+    font-size: 40px;
+}
+h2{
+    text-align: center;
+}
+
+h1, h2, p{
+    text-decoration: underline;
+}
+
+.para{
+    background-color: beige
+}
+#heading{
+    text-align: right;
+    color: blueviolet;
+}
+/* this is css comment */
+
+.box{
+    background-color: rgb(106, 90, 205);
+    height: 10vh;
+    text-align: center;
+    font-size: 30px;
+}
+
+.box1{
+    height: 10vh;
+    background-color: #3cb371;
+    text-align: center;
+    font-size: 30px;
+}
+
+#backgroundsetter{
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg);
+}
+
+.borderbox{
+    border: 10px solid yellow;
+    border-radius: 5px;
+    padding: 5%;
+    margin: 5%;
+    outline: 5px solid red;
+    outline-offset: 10px;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px yellowgreen;
+    
+}
+
+.borderbox p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+.layout{
+    display: flex;
+    justify-content: space-between;
+}
+
+
